@@ -1,0 +1,39 @@
+{
+  "name": "metriatrackingapi",
+  "version": "1.0.0",
+  "description": "METRIXA TRACKING API",
+  "main": "server.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-pretty-colors": "^0.1.7",
+    "es6-promisify": "^6.0.0",
+    "express": "^4.16.2",
+    "express-force-ssl": "^0.3.2",
+    "express-ipfilter": "^0.3.1",
+    "express-request-id": "^1.4.0",
+    "http": "^0.0.0",
+    "import": "0.0.6",
+    "joi": "^13.1.2",
+    "md5": "^2.2.1",
+    "moment": "^2.22.0",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.8",
+    "request-ip": "^2.0.2",
+    "touch": "^3.1.0",
+    "twilio": "^3.15.0",
+    "urldecode": "^1.0.1",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.1",
+    "winston-daily-rotate-file": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "phongphamhong",
+  "license": "ISC"
+}
